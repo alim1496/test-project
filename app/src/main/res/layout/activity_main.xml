@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/color_main">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="10dp"
+        app:titleTextColor="@color/white"
+        >
+
+        <TextView
+            android:text="@string/app_name"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <View
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="50dp"/>
+
+    <Button
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="5dp"
+        android:layout_gravity="center"
+        android:text="Location"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginVertical="10dp"
+        />
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/relative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="5dp"
+        android:text="Relative"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginVertical="10dp"
+        />
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/capability"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="5dp"
+        android:text="Capability"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginVertical="10dp"
+        />
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/opportunity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="5dp"
+        android:text="Opportunity"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginVertical="10dp"
+        />
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="5dp"
+        android:text="Age"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginVertical="10dp"
+        />
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/safety"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="5dp"
+        android:text="Safety"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginVertical="10dp"
+        />
+
+</LinearLayout>
